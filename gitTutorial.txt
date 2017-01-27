@@ -24,3 +24,31 @@ To https://github.com/AliSmili/Aliluya.git
 Branch master set up to track remote branch master from origin.
 C:\git\Aliluya [master =]>
 
+
+C:\git\Aliluya [master = +1 ~0 -0 !]> git commit -m "TutorialGuapoGIT" gitTutorial.txt
+error: pathspec 'gitTutorial.txt' did not match any file(s) known to git.
+C:\git\Aliluya [master = +1 ~0 -0 !]> git add gitTutorial.txt
+C:\git\Aliluya [master = +1 ~0 -0 ~]> git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   gitTutorial.txt
+
+C:\git\Aliluya [master = +1 ~0 -0 ~]> git commit -m "TutorialGuapoGIT" gitTutorial.txt
+[master 4a18606] TutorialGuapoGIT
+ 1 file changed, 26 insertions(+)
+ create mode 100644 gitTutorial.txt
+C:\git\Aliluya [master ?]> git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 764 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/AliSmili/Aliluya.git
+   0fb7b70..4a18606  master -> master
+Branch master set up to track remote branch master from origin.
+C:\git\Aliluya [master =]>
+
+
